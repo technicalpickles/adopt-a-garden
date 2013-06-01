@@ -22,8 +22,8 @@ You can see a running version of the application at
 ## Installation
 This application requires [Postgres](http://www.postgresql.org/) to be installed
 
-    git clone git://github.com/codeforamerica/adopt-a-hydrant.git
-    cd adopt-a-hydrant
+    git clone git://github.com/codeforsavannah/adopt-a-garden.git
+    cd adopt-a-garden
     bundle install
 
     bundle exec rake db:create
