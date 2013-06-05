@@ -8,11 +8,7 @@ class InfoWindowController < ApplicationController
         render("users/profile")
       end
     else
-      if user_signed_in?
-        render("things/adopt")
-      else
-        render("users/sign_in")
-      end
+      render("things/adopt")
     end
   end
 end
